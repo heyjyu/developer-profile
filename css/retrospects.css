@@ -1,0 +1,189 @@
+#retrospects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 8em 1em;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#retrospects h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+    width: 23em;
+    color: white;
+}
+
+#retrospects h3 strong {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 0.25em;
+    color: white;
+}
+
+#retrospects div {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#retrospects ul {
+    display: flex;
+    gap: 1em;
+    width: 120%;
+    margin-top: 5em;
+}
+
+#retrospects li {
+    font-size: 1.25em;
+    border-radius: 1em;
+    background-color: black;
+}
+
+#retrospects li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 13em;
+    height: 13em;
+    border-radius: 1em;
+    color: white;
+}
+
+#retrospects li p {
+    font-weight: 600;
+    text-align: center;
+    padding: 2em;
+    z-index: 10;
+}
+
+#tistory-37::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-37.jpeg) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+#tistory-42::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-42.jpeg) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+#tistory-43::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-43.jpeg) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+#tistory-45::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-45.png) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+#tistory-72::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-72.png) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+#tistory-73::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-73.jpeg) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+#tistory-77::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-77.jpeg) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+#tistory-90::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1em;
+    content: "";
+    background: url(../resources/tistory-90.jpeg) no-repeat 50% 50% / cover;
+    opacity: 0.4;
+}
+
+@media (min-width: 1024px) {
+    #retrospects {
+        padding: 13em 0;
+    }
+
+    #retrospects > div {
+        width: 100%;
+        max-width: 1280px;
+    }
+
+    #retrospects h3 {
+        width: 100%;
+    }
+
+    #retrospects h3 strong {
+        display: inline;
+        margin-right: 0.5em;
+    }
+
+    #retrospects ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #retrospects li a {
+        width: 15em;
+        height: 15em;
+    }
+
+    #retrospects li a:hover::before {
+        opacity: 0.2;
+    }
+}
