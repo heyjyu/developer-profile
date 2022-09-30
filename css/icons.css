@@ -1,0 +1,42 @@
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons ul {
+    display: flex;
+    justify-content: space-between;
+    width: 20em;
+}
+
+#github {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    background: url(../resources/github.png) no-repeat 50% 50% / cover;
+    text-indent: -9999px;
+}
+
+#mail {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: url(../resources/mail.png) no-repeat 50% 50% / cover;
+    text-indent: -9999px;
+}
+
+#linkedin {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: url(../resources/linkedin.png) no-repeat 50% 50% / cover;
+    text-indent: -9999px;
+}
+
+#blog {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: url(../resources/tistory.png) no-repeat 50% 50% / cover;
+    text-indent: -9999px;
+}

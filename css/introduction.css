@@ -1,0 +1,131 @@
+#introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.5em;    
+}
+
+#introduction img {
+    width: 13em;
+    height: 13em;
+    margin-bottom: 3em;
+    border-radius: 50%;
+}
+
+#introduction h2 {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#introduction h2 strong {
+    font-size: 2em;
+    color: #B2C8DF;
+}
+
+#introduction p {
+    font-size: 1.25em;
+    text-align: center;
+    margin-top: 0.5em;
+    color: white;
+}
+
+#introduction p strong {
+    font-weight: 500;
+    display: block;
+}
+
+#tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25em;
+    padding: 2em 0;
+}
+
+#tags li {
+    font-size: 1.25em;
+    display: inline-block;
+    margin: 0.3em;
+    padding: 0.75em 1.25em;
+    border-radius: 2em;
+    background-color: #6E85B7;
+    color: white;
+}
+
+#information {
+    width: 28em;
+    padding: 3em 1em;
+    border-top: 1px solid #DDDDDD;
+    color: white;
+}
+
+#information li {
+    display: grid;
+    grid-template-columns: 8em 1fr;
+    margin-bottom: 2em;
+}
+
+@media (min-width: 1024px) {
+    #introduction {
+        display: grid;
+        grid-template: repeat(4, auto) / 35% 65%;
+        width: 100%;
+        max-width: 1280px;
+        padding-top: 3.5em;
+    } 
+
+    #introduction img {
+        grid-area: 1 / 1 / 5 / 2;
+        width: 20em;
+        height: 20em;
+        margin-bottom: 3em;
+        border-radius: 50%;
+    }
+
+    #introduction h2 {
+        font-size: 1.25em;
+        grid-area: 1 / 2 / 2 / 3;
+        display: inline;
+    }
+
+    #introduction h2 strong {
+        margin-right: 1em;
+    }
+    
+    #introduction p {
+        text-align: left;
+    }
+
+    #introduction p strong {
+        display: inline;
+    }
+
+    #tags {
+        justify-content: flex-start;
+        width: 100%;
+        border-bottom: 1px solid #DDDDDD;;
+    }
+
+    #information {
+        font-size: 0.9em;
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        gap: 1em;
+        width: 100%;
+        border: none;
+    }
+
+    #information li {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin: 0;
+    }
+
+    #information p {
+        align-self: center;
+        margin: 0;
+    }
+}

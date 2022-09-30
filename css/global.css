@@ -1,0 +1,47 @@
+#scroll-top a {
+    position: fixed;
+    right: 2em;
+    bottom: 7em;
+    width: 3.5em;
+    height: 3.5em;
+    background: url(../resources/top-black.png) no-repeat 0 0 / contain;
+    text-indent: -9999px;
+}
+
+body {
+    font-size: 3vw;
+    background: linear-gradient(165.56deg, #101721 3.3%, #6E85B7 33.12%, #B2C8DF 99.53%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 7.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7em;
+    margin-top: 5em;
+    border-top: 1px solid white;
+    color: white;
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        height: 6em;
+        margin-top: 3em;
+    }
+}
